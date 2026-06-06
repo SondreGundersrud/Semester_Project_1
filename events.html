@@ -1,102 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Event page for Community Science Museum" content="The Community Science Museum hosts many fun and exciting events regularly. Our events are tailored made for children and will give them an experience they will never forget.">
-        <title>Special Events</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Itim&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-      <header class="header">
-        <nav>
-            <ul class="nav-bar">
-              <li class="logo"><a href="index.html"><img src="./compressed-images/logo-2.png" alt="Community Science Museum logo"></a></li>
-              <input type="checkbox" id="check">
-              <span class="menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="exhibitions.html">Exhibitions</a></li>
-              <li><a href="visit.html">Visit us</a></li>
-              <li><a href="involved.html">Get involved</a></li>
-              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-              </span>
-              <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
-          </nav>
-        <section>
-          <div class="text-box">
-              <h1>Community Science Museum</h1>
-              <p>"Events"</p>
-          </div>
-      </section>
-    </header>
-        <main class="page-main">
-            <h2 class="section-heading">Special Events and Exhibitions</h2>
-            <h2 class="news">News</h2>
-            <section class="three-row">
-              <div class="row-item">
-                  <div class="image-wrapper">
-                      <img src="./compressed-images/prof-sheila-widnall.png" alt="Prof Sheila Widnall from the Massachusetts Institute of Technology">
-                      <h3 class="image-title">GUEST</h3>
-                  </div>
-                  <input type="checkbox" id="expand-professor" class="expand-toggle">
-                  <div class="extra-content">
-                      <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                  </div>
-                  <label for="expand-professor" class="expand-button">READ MORE</label>
-              </div>
-              <div class="row-item">
-                  <div class="image-wrapper">
-                    <img src="./compressed-images/camping.png" alt="Night in the museum">
-                    <h3 class="image-title">SLEEPOVER</h3>
-                  </div>
-                  <input type="checkbox" id="expand-sleepover" class="expand-toggle">
-                  <div class="extra-content">
-                    <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-                  </div>
-                  <label for="expand-sleepover" class="expand-button">READ MORE</label>
-                </div>
-                <div class="row-item">
-                  <div class="image-wrapper">
-                    <img src="./compressed-images/energetica-exhibition.png" alt="Energetica Exhibition">
-                    <h3 class="image-title">ENERGETICA EXHIBITION</h3>
-                  </div>
-                  <input type="checkbox" id="expand-energetica-exhibition" class="expand-toggle">
-                  <div class="extra-content">
-                    <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
-                  </div>
-                  <label for="expand-energetica-exhibition" class="expand-button">READ MORE</label>
-                </div>
-          </section>
-        </main>
-        <footer class="site-footer">
-            <div class="footer-content">
-              <div class="footer-logo">
-                <img src="./compressed-images/logo-2.png" alt="Community Science Museum logo">
-              </div>
-              <p>&copy; 2025 Community Science Museum</p>
-              <nav class="footer-nav">
-                <ul>
-                    <a href="index.html">Home</a>
-                    <a href="events.html">Events</a>
-                    <a href="exhibitions.html">Exhibit</a>
-                    <a href="visit.html">Visit Us</a>
-                    <a href="involved.html">Get Involved</a>
-                </ul>
-              </nav>
-              <div class="social-icons">
-                <a href="#" aria-label="Facebook" alt="Facebook page for Community Science Museum"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" aria-label="Instagram" alt="Instagram page for Community Science Museum"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="Twitter" alt="Twitter page for Community Science Museum"><i class="fab fa-twitter"></i></a>
-              </div>
-            </div>
-          </footer>
-    </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Event page for Community Science Museum"
+			content="The Community Science Museum hosts many fun and exciting events regularly. Our events are tailored made for children and will give them an experience they will never forget." />
+		<title>Special Events</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dekko&family=Itim&family=Playpen+Sans:wght@100..800&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/variables.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<script src="topBtn.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<nav>
+				<ul class="nav-bar">
+					<li class="logo">
+						<a href="index.html"
+							><img
+								src="./compressed-images/logo-2.png"
+								alt="Community Science Museum logo"
+						/></a>
+					</li>
+					<input type="checkbox" id="check" />
+					<span class="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="exhibitions.html">Exhibitions</a></li>
+						<li><a href="visit.html">Visit us</a></li>
+						<li><a href="involved.html">Get involved</a></li>
+						<label for="check" class="close-menu"
+							><i class="fas fa-times"></i
+						></label>
+					</span>
+					<label for="check" class="open-menu"
+						><i class="fas fa-bars"></i
+					></label>
+				</ul>
+			</nav>
+			<section>
+				<div class="text-box">
+					<h1>Community Science Museum</h1>
+					<p>"Events"</p>
+				</div>
+			</section>
+		</header>
+		<main class="page-main">
+			<h2 class="section-heading">
+				Special Events and Exhibitions
+			</h2>
+			<h2 class="news">News</h2>
+			<section class="three-row">
+				<div class="row-item">
+					<div class="image-wrapper">
+						<img
+							src="./compressed-images/prof-sheila-widnall.png"
+							alt="Prof Sheila Widnall from the Massachusetts Institute of Technology" />
+						<h3 class="image-title">GUEST</h3>
+					</div>
+					<input
+						type="checkbox"
+						id="expand-professor"
+						class="expand-toggle" />
+					<div class="extra-content">
+						<p>
+							It is our pleasure to announce that Prof Sheila
+							Widnall from the Massachusetts Institute of
+							Technology will be delivering 3 lectures on the
+							development of aeronautics and where the future lies
+							in this exciting ‘space’.
+						</p>
+					</div>
+					<label for="expand-professor" class="expand-button"
+						>READ MORE</label
+					>
+				</div>
+				<div class="row-item">
+					<div class="image-wrapper">
+						<img
+							src="./compressed-images/camping.png"
+							alt="Night in the museum" />
+						<h3 class="image-title">SLEEPOVER</h3>
+					</div>
+					<input
+						type="checkbox"
+						id="expand-sleepover"
+						class="expand-toggle" />
+					<div class="extra-content">
+						<p>
+							Get your family together for an exciting night in the
+							museum as you sleep over beside dinosaurs and science
+							displays. Bring your own sleeping bag and get ready
+							to rough it as we go exploring the wonders of
+							science.
+						</p>
+					</div>
+					<label for="expand-sleepover" class="expand-button"
+						>READ MORE</label
+					>
+				</div>
+				<div class="row-item">
+					<div class="image-wrapper">
+						<img
+							src="./compressed-images/energetica-exhibition.png"
+							alt="Energetica Exhibition" />
+						<h3 class="image-title">ENERGETICA EXHIBITION</h3>
+					</div>
+					<input
+						type="checkbox"
+						id="expand-energetica-exhibition"
+						class="expand-toggle" />
+					<div class="extra-content">
+						<p>
+							On loan from the NEMO Science Museum in Amsterdam,
+							the Energetica exhibition is coming to the Community
+							Science Museum. It’s a series of installations that
+							allow visitors to experience the power of the
+							elements as we harness them. From solar energy
+							powering lighting, to ‘Wind Island’ that shows how
+							turbines are able to use and control wind to create
+							power.
+						</p>
+					</div>
+					<label
+						for="expand-energetica-exhibition"
+						class="expand-button"
+						>READ MORE</label
+					>
+				</div>
+			</section>
+		</main>
+		<footer class="site-footer">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img
+						src="./compressed-images/logo-2.png"
+						alt="Community Science Museum logo" />
+				</div>
+				<p>&copy; 2025 Community Science Museum</p>
+				<nav class="footer-nav">
+					<ul>
+						<a href="index.html">Home</a>
+						<a href="events.html">Events</a>
+						<a href="exhibitions.html">Exhibit</a>
+						<a href="visit.html">Visit Us</a>
+						<a href="involved.html">Get Involved</a>
+					</ul>
+				</nav>
+				<div class="social-icons">
+					<a
+						href="#"
+						aria-label="Facebook"
+						alt="Facebook page for Community Science Museum"
+						><i class="fab fa-facebook-f"></i
+					></a>
+					<a
+						href="#"
+						aria-label="Instagram"
+						alt="Instagram page for Community Science Museum"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a
+						href="#"
+						aria-label="Twitter"
+						alt="Twitter page for Community Science Museum"
+						><i class="fab fa-twitter"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+		<button
+			onclick="topFunction()"
+			class="toTopBtn"
+			title="Go to top">
+			Top
+		</button>
+	</body>
 </html>
